@@ -29,4 +29,14 @@ let num = 10;
 //2. String
 /*String represents a sequence of characters enclosed within single or double quotes.*/
 let str = "Hello";
-console.log(typeof str); //string
+// console.log(typeof str); //string
+
+//3. Boolean
+/*Boolean represents a logical entity and can have two values: true or false.*/
+let isRaining = true;
+// console.log(typeof isRaining); //boolean
+
+//4. Undefined
+/*Undefined represents a variable that has been declared but not assigned any value.*/
+let x;
+console.log(typeof x); //undefined
