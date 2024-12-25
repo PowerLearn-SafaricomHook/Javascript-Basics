@@ -51,3 +51,8 @@ c = 40;
 
 /*Variables can be declared and assigned in multiple lines and reassigned in one line*/
 
+let d;
+d = 50;
+// console.log(d);
+
+
