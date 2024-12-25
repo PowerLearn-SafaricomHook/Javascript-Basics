@@ -28,4 +28,11 @@ y = 10;
 
 let z = 5;
 z = "Hello";
-console.log(z);
+// console.log(z);
+
+/*Variables can be declared and assigned in one line*/
+
+let a = 10;
+// console.log(a);
+
+/*Variables can be declared and assigned in multiple lines*/
