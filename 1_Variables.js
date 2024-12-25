@@ -1,4 +1,6 @@
 
+//Teach me about variables in Javascript
+
 /*Variables in Javascript are containers that store data values.*/
 /*they are declared using var, let or const keyword*/
 /*var is function scoped, let and const are block scoped*/
@@ -36,3 +38,16 @@ let a = 10;
 // console.log(a);
 
 /*Variables can be declared and assigned in multiple lines*/
+
+let b;
+b = 20;
+// console.log(b);
+
+/*Variables can be declared and assigned in one line and reassigned in multiple lines*/
+
+let c = 30;
+c = 40;
+// console.log(c);
+
+/*Variables can be declared and assigned in multiple lines and reassigned in one line*/
+
