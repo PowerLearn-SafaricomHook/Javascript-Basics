@@ -49,4 +49,5 @@ let y = null;
 //6. Symbol
 /*Symbol represents a unique value.*/
 let sym = Symbol("hello");
-// console.log(typeof sym); //symbol
+console.log(typeof sym) //false
+
