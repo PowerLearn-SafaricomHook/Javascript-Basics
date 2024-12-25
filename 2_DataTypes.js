@@ -91,4 +91,17 @@ console.log(fruits[0]); //Apple
 
 //3. Function
 
+/*Function represents a block of code that can be executed.*/
+function greet() {
+    console.log("Hello World");
+}
+greet(); //Hello World
+
+//4. Date
+
+/*Date represents a date and time.*/
+
+let today = new Date();
+console.log(today); //current date and time
+
 
