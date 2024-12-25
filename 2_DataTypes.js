@@ -39,4 +39,14 @@ let isRaining = true;
 //4. Undefined
 /*Undefined represents a variable that has been declared but not assigned any value.*/
 let x;
-console.log(typeof x); //undefined
+// console.log(typeof x); //undefined
+
+//5. Null
+/*Null represents an empty value.*/
+let y = null;
+// console.log(typeof y); //object
+
+//6. Symbol
+/*Symbol represents a unique value.*/
+let sym = Symbol("hello");
+// console.log(typeof sym); //symbol
