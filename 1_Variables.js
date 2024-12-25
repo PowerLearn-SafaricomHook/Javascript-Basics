@@ -8,5 +8,18 @@ var name = "John";
 let age = 25;
 const country = "India";
 
-console.log(name);
-console.log(age);
+// console.log(name);
+// console.log(age);
+// console.log(country);
+
+/*Variables can be declared without assigning any value*/
+
+let x;
+x=10;
+// console.log(x);
+
+/*Variables can be reassigned*/
+
+let y = 5;
+y = 10;
+console.log(y);
