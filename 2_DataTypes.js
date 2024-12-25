@@ -57,7 +57,7 @@ let y = null;
 //6. Symbol
 /*Symbol represents a unique value.*/
 let sym = Symbol("hello");
-console.log(typeof sym) //false
+// console.log(typeof sym) //false
 
 
 //2. Non-Primitive Data Types
@@ -81,5 +81,14 @@ let person = {
     lname: "Doe",
     age: 25
 };
+console.log(person.fname); //John
+
+//2. Array
+/*Array represents a collection of elements.*/
+
+let fruits = ["Apple", "Banana", "Mango"];
+console.log(fruits[0]); //Apple
+
+//3. Function
 
 
