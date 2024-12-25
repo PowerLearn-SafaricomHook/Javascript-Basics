@@ -13,6 +13,9 @@ const { default: test } = require("node:test");
 /*Also called built-in data types, primitive data types are the basic data types in Javascript.
 /*Primitive Data Types are immutable and stored directly in the location that the variable accesses.
 When you access a primitive data type, you work on the actual value.*/
+/*Primitive Data Types are passed by value.*/
+/*Primitive Data Types are stored in the stack memory.*/
+// they are directly supported by the language and are the most basic data types available.
 
 
 /*Primitive Data Types include:
@@ -58,3 +61,25 @@ console.log(typeof sym) //false
 
 
 //2. Non-Primitive Data Types
+/* They are created by the programmer and are not defined by the programming language. */
+/*Also called reference data types, non-primitive data types are not directly supported by the language.
+Non-Primitive Data Types are mutable and stored in the heap memory.*/
+/*Non-Primitive Data Types are passed by reference.*/
+
+/*Non-Primitive Data Types include:
+1. Object
+2. Array
+3. Function
+4. Date
+
+*/
+
+//1. Object
+/*Object represents a collection of key-value pairs.*/
+let person = {
+    fname: "John",
+    lname: "Doe",
+    age: 25
+};
+
+
