@@ -24,3 +24,9 @@ When you access a primitive data type, you work on the actual value.*/
 /*Number represents both integer and floating point numbers.*/
 let num = 10;
 // console.log(typeof num); //number
+
+
+//2. String
+/*String represents a sequence of characters enclosed within single or double quotes.*/
+let str = "Hello";
+console.log(typeof str); //string
