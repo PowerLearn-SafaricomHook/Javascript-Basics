@@ -22,4 +22,10 @@ x=10;
 
 let y = 5;
 y = 10;
-console.log(y);
+// console.log(y);
+
+/*Variables can be reassigned with different data types*/
+
+let z = 5;
+z = "Hello";
+console.log(z);
